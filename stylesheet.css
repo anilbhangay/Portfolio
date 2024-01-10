@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.header h1 {
+    padding: 20px 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: gray;
+    text-align: center;
+}
