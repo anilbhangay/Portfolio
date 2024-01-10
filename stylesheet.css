@@ -2,15 +2,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow: hidden;
+    font-family: 'poppins', sans-serif;
 }
 
 
-.header h1 {
-    padding: 20px 10px;
+body {
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
     font-size: 25px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    background-color: gray;
-    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
 }
+
