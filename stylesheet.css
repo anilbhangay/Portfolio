@@ -303,7 +303,7 @@ section {
 }
 
 .technical-bars .bar {
-  margin-top: 40px 0;
+  margin-top: 40px 0px;
 }
 
 .technical-bars .bar:first-child {
@@ -351,6 +351,46 @@ section {
    transform: scaleX(0);
    transform-origin: left;
  }
+
+  .progress-line .html span {
+    width: 90%;
+  }
+  
+  .progress-line .css span {
+    width: 60%;
+  }
+
+  .progress-line .Javascript span {
+    width: 85%;
+  }
+
+  .progress-line .Node span {
+    width: 50%;
+  }
+
+  .progress-line .React span {
+    width: 75%;
+  }
+
+  .progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+  }
+
+
+
+
+
+
+
 
 
 
