@@ -336,11 +336,13 @@ section {
      transform-origin: left;
  }
 
+
  @keyframes animate {
    100% {
     transform: scaleX(1);
    }
- }
+ } 
+
 
  .technical-bars .bar .progress-line span {
    height: 100%;
@@ -352,23 +354,23 @@ section {
    transform-origin: left;
  }
 
-  .progress-line .html span {
+  .progress-line.html span {
     width: 90%;
   }
   
-  .progress-line .css span {
+  .progress-line.css span {
     width: 60%;
   }
 
-  .progress-line .Javascript span {
+  .progress-line.Javascript span {
     width: 85%;
   }
 
-  .progress-line .Node span {
+  .progress-line.Node span {
     width: 50%;
   }
 
-  .progress-line .React span {
+  .progress-line.React span {
     width: 75%;
   }
 
