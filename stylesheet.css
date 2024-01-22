@@ -387,6 +387,10 @@ section {
     opacity: 0;
   }
 
+  .progress-line.html span::after {
+    content: "90%";
+  }
+
   
 
 
