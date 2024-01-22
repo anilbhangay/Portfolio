@@ -303,7 +303,7 @@ section {
 }
 
 .technical-bars .bar {
-  margin-top: 40px 0px;
+  margin-top: 40px;
 }
 
 .technical-bars .bar:first-child {
@@ -332,7 +332,7 @@ section {
      height: 5px;
      background-color: #000000;
      animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-     transform: scaleX(0);
+     /* transform: scaleX(0); */
      transform-origin: left;
  }
 
@@ -350,7 +350,7 @@ section {
    position: absolute;
    border-radius: 10px;
    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-   transform: scaleX(0);
+   /* transform: scaleX(0); */
    transform-origin: left;
  }
 
@@ -374,7 +374,7 @@ section {
     width: 75%;
   }
 
-  .progress-line span::after{
+  .progress-line span::after {
     position: absolute;
     padding: 1px 8px;
     background-color: #000;
@@ -386,6 +386,9 @@ section {
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
   }
+
+  
+
 
 
 
