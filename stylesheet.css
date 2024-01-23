@@ -391,11 +391,21 @@ section {
     content: "90%";
   }
 
-  
+  .progress-line.css span::after {
+    content: "60%";
+  }
 
+  .progress-line.Javascript span::after {
+    content: "85%";
+  }
 
+  .progress-line.Node span::after {
+    content: "50%";
+  }
 
-
+  .progress-line.React span::after {
+    content: "75%";
+  }
 
 
 
